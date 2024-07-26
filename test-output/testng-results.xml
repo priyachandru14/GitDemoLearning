@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-11T13:20:20 IST" name="Suite" finished-at="2022-09-11T13:21:02 IST" duration-ms="41750">
+    <groups>
+    </groups>
+    <test started-at="2022-09-11T13:20:20 IST" name="Test" finished-at="2022-09-11T13:21:02 IST" duration-ms="41750">
+      <class name="testcase.CreateLead">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:20:20 IST" name="preCondition" finished-at="2022-09-11T13:20:36 IST" duration-ms="15873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:20:36 IST" name="runCreate" data-provider="testData" finished-at="2022-09-11T13:20:44 IST" duration-ms="7279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLeaf]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Priya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreate -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:20:44 IST" name="postCondition" finished-at="2022-09-11T13:20:44 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:20:44 IST" name="preCondition" finished-at="2022-09-11T13:20:54 IST" duration-ms="9745" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreate(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:20:54 IST" name="runCreate" data-provider="testData" finished-at="2022-09-11T13:21:02 IST" duration-ms="8049" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amazon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Lokesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreate -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:testcase.CreateLead@7161d8d1]" started-at="2022-09-11T13:21:02 IST" name="postCondition" finished-at="2022-09-11T13:21:02 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- testcase.CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
